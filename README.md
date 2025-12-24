@@ -3,9 +3,8 @@
 FORTRAN code for radiative correction calculations used in CLAS12 analysis, specifically for inclusive DIS electron scattering on nuclear targets.
 
 ## Attribution and Contact
-**Original Developer:** Dr. Alexander Ilyichev (Sasha) <ily@hep.by>
+**Original Developer:** Dr. Alexander Ilyichev <ily@hep.by>
 - This code was provided by Alexander Ilyichev for radiative corrections analysis of CLAS12 RG-D data
-- Initial discussion and code transfer occurred via email in December 2025
 - Includes setup for Carbon target with example input file
 
 ## Purpose
