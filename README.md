@@ -21,4 +21,4 @@ Calculate internal radiative corrections for:
 ## Building and Running
 ```bash
 make
-./polrad20 < input.dat
+./polrad20.exe
