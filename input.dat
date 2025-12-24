@@ -1,0 +1,8 @@
+      10.65    !  bmom - lepton beam momentum
+        0.0   !  tmom - nucleous beam momentum
+        1.    !  pl1  - lepton polarization degree
+        1.    !  pn1  - nucleous polarization degree
+        0.    !  qn   - quadrupolarization degree
+         1    !  npoi - number of points for key 'kin_own'
+  0.01         !  array of x for key 'kin_own'
+  0.9         !  array of y for key 'kin_own'

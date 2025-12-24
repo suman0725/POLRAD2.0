@@ -12,7 +12,7 @@ polrad20
 
 # Data files (optional - include if you don't want to track data)
 *.dat
-
+!input.dat
 # Backup files
 *~
 *.bak
