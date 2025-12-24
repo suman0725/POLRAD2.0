@@ -1,0 +1,27 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+polrad20
+
+# Temporary files
+*.tmp
+*.temp
+
+# Data files (optional - include if you don't want to track data)
+*.dat
+
+# Backup files
+*~
+*.bak
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
