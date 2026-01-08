@@ -1677,7 +1677,9 @@ CDECK  ID>, TITOUT.
          switch(nsw)='long'
          lsw(nsw)=4
          nsw=nsw+1
-         switch(nsw)='kin_net'
+c Debug 3 changing 'kin_net' to 'kin_own'         
+c         switch(nsw)='kin_net'
+         switch(nsw)='kin_own'
          lsw(nsw)=7
          nsw=nsw+1
          switch(nsw)='targ_c'
