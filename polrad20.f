@@ -24,14 +24,14 @@ c
      +         2d-1,3d-1,4d-1,5d-1,6d-1,6.5d-1,7d-1,7.5d-1,
      +         8d-1,8.25d-1,8.5d-1,8.75d-1,9d-1,.91d0,
      +         .92d0,.93d0,.94d0,.95d0,.96d0,.97d0,.98d0,.99d0/
-      npoi=0
-      do iix=1,nxfin
-      do iiy=1,nyfin
-         npoi=npoi+1
-         xmas(npoi)=xnet(iix)
-         ymas(npoi)=ynet(iiy)
-      enddo
-      enddo
+c      npoi=0
+c    do iix=1,nxfin
+c     do iiy=1,nyfin
+c        npoi=npoi+1
+c        xmas(npoi)=xnet(iix)
+c        ymas(npoi)=ynet(iiy)
+c     enddo
+c     enddo
 
          open(unit=8,file='input.dat',status='old')
          read(8,*)bmom
