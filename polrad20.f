@@ -24,6 +24,8 @@ c
      +         2d-1,3d-1,4d-1,5d-1,6d-1,6.5d-1,7d-1,7.5d-1,
      +         8d-1,8.25d-1,8.5d-1,8.75d-1,9d-1,.91d0,
      +         .92d0,.93d0,.94d0,.95d0,.96d0,.97d0,.98d0,.99d0/
+
+c Debug 1: fill in the grid of (x,y) points , commented out for reading from file      
 c      npoi=0
 c    do iix=1,nxfin
 c     do iiy=1,nyfin
@@ -39,7 +41,17 @@ c     enddo
          read(8,*)pl1
          read(8,*)pn1
          read(8,*)qn1
+c Debug 2: added three lines to read from file
+c  -------------------------------------
+         read(8,*)npoi
+         read(8,*)(xmas(i),i=1,npoi)
+         read(8,*)(ymas(i),i=1,npoi)
+c  -------------------------------------         
          close(8)
+         
+
+
+
 
          call titout('10.04.1997',bmom,tmom,pl1,pn1,qn1)
 
